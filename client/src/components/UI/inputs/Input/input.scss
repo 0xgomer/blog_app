@@ -1,0 +1,40 @@
+@import "../../../../styles/variables";
+
+.input{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  .input__error{
+    color: $color-red;
+    border: 2px solid $color-red;
+  }
+
+  p{
+    color: $color-red;
+  }
+}
+
+.input--large{
+  input{
+    font-family: 'h2', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: $color--gray;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+}
+
+.input--small{
+  input{
+    font-family: 'p', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: $color--black;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+}

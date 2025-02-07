@@ -1,0 +1,45 @@
+@import "../../../../styles/variables";
+
+.image-input-avatar{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+
+  .image-input-avatar__wrapper{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .image-input-avatar__avatar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: $color--gray;
+    overflow: hidden;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .image-input-avatar__wrapper.error{
+    padding: 3px;
+    border: 3px solid $color-red;
+  }
+
+  .image-input-avatar__message{
+    color: $color-red;
+    text-align: left;
+  }
+
+  input{
+    display: none;
+  }
+}

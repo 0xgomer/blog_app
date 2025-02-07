@@ -1,0 +1,129 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'h2', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: $color--black;
+}
+
+h3 {
+    font-family: 'h3', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: $color--black;
+}
+
+h4 {
+    font-family: 'h4', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: $color--black;
+}
+
+p, li {
+    font-family: 'p', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: $color--black;
+}
+
+span, blockquote {
+    font-family: 'p', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: $color--blue;
+}
+
+button {
+    display: inline-block;
+    height: 50px;
+    font-family: 'button', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: $color--blue;
+    background: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    border: 3px solid $color--blue;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: $color--white;
+    background: $color--blue;
+    border: 3px solid transparent;
+    transition: all .3s linear;
+}
+
+button svg path:hover {
+    stroke: $color--white;
+    fill: $color--white;
+}
+
+button.primary {
+    height: 50px;
+    font-family: 'button', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: $color--white;
+    background: $color--blue;
+    padding: 10px 22px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+button.primary:hover {
+    color: $color--blue;
+    background: none;
+    border: 3px solid $color--blue;
+    transition: all .3s linear;
+}
+
+button.primary svg path:hover {
+    stroke: $color--blue;
+    fill: $color--blue;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+input{
+    height: 50px;
+    background: none;
+    font-family: 'p', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: $color--gray;
+    padding: 22px 15px;
+    border: 2px solid $color--gray;
+    border-radius: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+.App{
+    min-height: 100vh;
+    background: $color--dark-white;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    padding: 25px 0;
+    margin: 0 auto;
+}

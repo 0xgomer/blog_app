@@ -1,0 +1,11 @@
+#enviroument
+
+/.env
+
+#modules
+
+/node_modules
+
+#static
+
+/uploads

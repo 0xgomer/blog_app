@@ -1,0 +1,21 @@
+.editor{
+  width: 100%;
+  min-height: 350px;
+  height: 100%;
+
+  .ql-toolbar {
+    border: none;  /* Убираем рамку вокруг тулбара */
+  }
+
+  .ql-container {
+    border: none;  /* Убираем рамку вокруг области редактора */
+  }
+
+  .ql-container:focus {
+    outline: none;  /* Убираем контур при фокусировке */
+  }
+
+  .ql-toolbar .ql-formats {
+    border: none;  /* Убираем рамки у кнопок тулбара */
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../../styles/variables";
+
+.tag-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: $color--light-gray;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+
+  p{
+    text-transform: capitalize;
+  }
+}

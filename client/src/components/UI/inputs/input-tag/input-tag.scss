@@ -1,0 +1,31 @@
+@import "../../../../styles/variables";
+
+.input-tag{
+  width: 100%;
+  border-bottom: 2px solid $color--gray;
+  padding-bottom: 10px;
+  overflow: hidden;
+
+  .input-tag__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow-x: auto;
+  }
+
+
+  .input-tag__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  input{
+    height: auto;
+    font-family: 'p', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: $color--black;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+}

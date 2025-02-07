@@ -1,0 +1,27 @@
+@import "../../../styles/variables";
+
+.user-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  img{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+  }
+
+  .user-item__main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  span{
+    color: $color--black;
+  }
+
+  p{
+    color: $color--gray;
+  }
+}

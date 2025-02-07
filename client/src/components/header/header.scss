@@ -1,0 +1,18 @@
+@import "../../styles/variables";
+
+.header{
+  background: $color--white;
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    .header__btns{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      gap: 15px;
+    }
+  }
+}

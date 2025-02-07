@@ -1,0 +1,16 @@
+@import '../../../../styles/variables';
+
+.search-input{
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+  input{
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+  }
+
+  button{
+    border-radius: 0 5px 5px 0 !important;
+  }
+}
