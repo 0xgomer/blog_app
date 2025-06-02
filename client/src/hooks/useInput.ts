@@ -26,7 +26,7 @@ const useInput = ({initialValue, validator}: UseInputProps):UseInputReturn => {
     }
 
     useEffect(() => {
-        setValue(initialValue); // Синхронизация внутреннего состояния с изменениями initialValue
+        setValue(initialValue); 
     }, [initialValue]);
 
     useEffect(() => {
@@ -37,7 +37,7 @@ const useInput = ({initialValue, validator}: UseInputProps):UseInputReturn => {
     }, [value, touched, validator])
 
     const handleBlur = () => {
-        setTouched(true); // Установка флага touched при потере фокуса
+        setTouched(true); 
     };
 
     return {value, error, onChange: handleChange, handleBlur}
